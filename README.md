@@ -1,0 +1,1 @@
+Auriga training assignments
