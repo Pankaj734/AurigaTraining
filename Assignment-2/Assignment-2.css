@@ -1,0 +1,95 @@
+.MainContainer{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.FirstContainer{
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid lightgrey;
+}
+.Number{
+	height: 25px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Form{
+	margin: 10px;
+	padding: 10px;
+	background-color: lightgrey;
+}
+.FirstContainer .Form input[type="button"]{
+	height: 40px;
+	background-color: #9E9E9E;
+	margin-left: 130px;
+	border: none;
+}
+.FirstContainer input[type="button"]{
+	background-color: lightgrey;
+	border: 1px solid grey;
+}
+
+.ChangePass{
+	display: inline;
+	float: right;
+	margin-top: 0px;
+}
+
+.MainContainer .SecondContainer{
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid lightgrey;
+	background-color: lightgrey;
+}
+
+.NewMessage{
+	margin-top: 5px;
+	width: 610px;
+	height: 40px;
+}
+.SendMessage{
+	margin-top: 5px;
+	float: right;
+	width: 150px;
+	height: 45px;
+	text-decoration: underline;
+}
+
+.sc1{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	background-color: #9E9E9E;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.sc2{
+	width: 500px;
+	height: 40px;
+	margin-top: 3px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #9E9E9E;
+	padding: 5px 10px 2px;
+}
+.sc3{
+	width: 500px;
+	height: 40px;
+	margin-top: 3px;
+	float: right;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #9E9E9E;
+	padding: 5px 10px 2px;
+}
+.sc4{
+	margin-top: 15px;
+	margin-bottom: 40px;
+	background-color: #9E9E9E;
+	text-align: center;
+	width: 350px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+}
