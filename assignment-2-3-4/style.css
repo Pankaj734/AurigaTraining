@@ -1,0 +1,172 @@
+main{
+	width: 800px;
+	border: 1px solid #BDBDBD;
+	margin: 0 auto;
+}
+header{
+	height: 10px;
+	background-color: black;
+	margin: 0;
+}
+.top{
+	padding: 10px;
+}
+.top h4{
+	text-decoration: none;
+	display: inline;
+}
+.top a{
+	color: black;
+	font-weight: bold;
+	float: right;
+	text-decoration: underline;
+}
+.Form{
+	margin: 10px;
+	padding: 10px;
+	background-color: #EEEEEE;
+}
+.Form input[type="button"]{
+	height: 40px;
+	background-color: #9E9E9E;
+	margin-left: 150px;
+	border: none;
+}
+
+
+
+.tab button {
+  background-color: #EEEEEE;
+  float: left;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top: none;
+  animation: fadeEffect 1s;
+  background-color: #EEEEEE;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.NewMessage{
+	margin-top: 5px;
+	width: 610px;
+	height: 40px;
+}
+.SendMessage{
+	margin-top: 5px;
+	float: right;
+	width: 150px;
+	height: 45px;
+	text-decoration: underline;
+}
+
+.sc1{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	background-color: #9E9E9E;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.sc2{
+	width: 500px;
+	height: 40px;
+	margin-top: 3px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #9E9E9E;
+	padding: 5px 10px 2px;
+}
+.sc3{
+	width: 500px;
+	height: 40px;
+	margin-top: 3px;
+	float: right;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #9E9E9E;
+	padding: 5px 10px 2px;
+}
+.sc4{
+	margin-top: 15px;
+	margin-bottom: 40px;
+	background-color: #9E9E9E;
+	text-align: center;
+	width: 350px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+}
+
+.conversation {
+	border-top: 1px solid lightgrey;
+}
+
+.contacts{
+	margin-top: 20px;
+}
+
+.incontacts{
+	width: 150px;
+	text-align: right;
+	display: inline-block;
+}
+.messages {
+	width: 600px;
+	float: right;
+	display: inline-block;
+}
+
+.flex-container{
+	border-top: 1px solid grey;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: Arial;
+}
+
+.flex-container figure{
+	border: 1px solid grey;
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+
+}
+
+.date{
+	color: grey;
+	font-size: 12px;
+}
+
+.Load{
+	border-radius: 5px;
+	background-color: grey;
+	padding: 10px;
+	margin: 0 auto;
+	width: 350px;
+	height: 55px;
+	text-align: center;
+	color: #BDBDBD;
+}
+.Load u{
+	color: #000;
+}
+
+

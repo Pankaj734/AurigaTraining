@@ -1,0 +1,38 @@
+main{
+	padding: 10px;
+}
+
+form{
+	max-width: 600px;
+	border: 1px solid grey;
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 10px;
+	text-align: center;	
+	background-color: #b2ebf2;
+}
+
+form label{
+	margin-bottom: 10px;
+}
+
+form input,select{
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+}
+form input[type="radio"]{
+	margin-left: 5px;
+}
+form input[type="submit"]{	
+	color: white;
+	background-color: red;
+	width: 50%;
+}
+
+.gender{
+ 	display: none;
+ 	margin: 10px;
+ 	border: 1px solid lightgrey;
+ 	padding: 10px;
+ 	border-radius: 10px;
+ }

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="tab.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+	<title>assignment 2,3,4</title>
+</head>
+<body>
+	<main>
+		<header></header>
+		<div class="top">
+			<h4><b>Textify</b> Because Text Messaging Rocks</h4>
+			<a href="#">Logout</a>
+		</div>
+
+		<div class="Form">
+				<form>
+					
+					<label for="to" style="font-size: 30px; margin-left: 90px;">To : </label>
+					<select id="to" name="to" style="width: 300px; height: 40px;">
+						<option> </option>
+					</select>
+
+					<p style="font-size: 10px; display: inline;"> << </p> 
+					<p style="font-size: 20px; display: inline; color: grey;"> Phone number or name.</p><br><br>
+
+					<label for="message" style="font-size: 30px;">Message : </label>
+					<textarea style="width: 600px; height: 70px; "></textarea>	
+
+					<p style="margin-left: 150px; margin-top: 0px;"><u>Attach photo to this text</u></p> <br>
+
+					<input type="button" name="SendTextMessage" value="Send Text Message">
+
+					<p style="display: inline;">or <u> Schedule it for later delivery</u></p>
+		
+				</form>
+			</div>
+			
+			<br>
+			<div class="tab">
+			  <button class="tablinks" onclick="openTab(event, 'Recent')" id="defaultOpen">
+			  	Recent Conversation</button>
+			  <button class="tablinks" onclick="openTab(event, 'All')">All Conversation</button>
+			  <button class="tablinks" onclick="openTab(event, 'Photo')">Photos</button>
+			</div>
+			<h5 style="float: right;"><u>Change Password</u></h5>
+			<br><br>
+			<!-- Tab content -->
+			<div id="Recent" class="tabcontent">
+			  
+				<p style="font-size: 20px; float: left; margin-bottom: 10px; margin-top: 15px;"> (508)555-5123 </p><br>
+				<p style="display: inline;margin-left: 10px;"><u>Set a name for this number</u></p>
+				<p style="float: right; margin-top: 5px;"><u>View All Conversation</u></p><br><br>
+
+				<label><strong>New Text Message:</strong></label><br>
+				<input type="textarea" name="new" class="NewMessage">
+				<input type="button" name="SendMessage" value="SendMessage" class="SendMessage">
+
+				<p style="margin-top: 5px;"><u>Attach photo </u>or<u> Schedule for later delivery</u></p>
+
+				<div class="sc1">
+					<p>you have <b>1 message Scheduled </b>for later delivery. <u>Click here to view theme.</u></p>				
+				</div>
+				<br><br>
+
+				
+				<!-- chat conversation -->
+
+				<strong>(508)555-5123 </strong> <p style="color: grey; display: inline;"> Today</p>
+
+				<div class="sc2">
+					blah blah blah blah blah blah blah bla bla bla bla bla blb alb alb alb lab bla bla bla blah
+				</div><br>
+
+				<div style="float: right;">
+					<strong><i>You</i>-(508)555-5123</strong> <p style="color: grey; display: inline;">Today</p>
+				</div><br>
+
+				<div class="sc3">
+					blah blah blah blah blah blah blah bla bla bla bla bla blb alb alb alb lab bla bla bla blah
+				</div><br><br><br><br>
+
+				<strong>(508)555-5123 </strong> <p style="color: grey; display: inline;"> Today</p>
+
+				<div class="sc2">
+					blah blah blah blah blah blah blah bla bla bla bla bla blb alb alb alb lab bla bla bla blah
+				</div><br>
+
+				<div style="float: right;">
+					<strong><i>You</i>-(508)555-5123</strong> <p style="color: grey; display: inline;">Today</p>
+				</div><br>
+
+				<div class="sc3">
+					blah blah blah blah blah blah blah bla bla bla bla bla blb alb alb alb lab bla bla bla blah
+				</div><br><br><br><br>
+
+				<strong>(508)555-5123 </strong> <p style="color: grey; display: inline;"> Today</p>
+
+				<div class="sc2">
+					blah blah blah blah blah blah blah bla bla bla bla bla blb alb alb alb lab bla bla bla blah
+				</div><br>
+
+				<div style="float: right;">
+					<strong><i>You</i>-(508)555-5123</strong> <p style="color: grey; display: inline;">Today</p>
+				</div><br>
+
+				<div class="sc3">
+					blah blah blah blah blah blah blah bla bla bla bla bla blb alb alb alb lab bla bla bla blah
+				</div><br><br><br><br>
+
+				
+				<div class="sc4">
+					<strong><u>Load More Messages</u></strong><br>
+					There are 217 more messages in conversation.				
+				</div>		
+
+			</div>
+
+			<div id="All" class="tabcontent">
+				<br><br>
+			  
+					<h3> Top Conversations </h3>
+
+						<div class="conversation">
+
+							<div class="contacts">
+								<div class="incontacts">
+									<b><u>(508)555-1234</u></b>
+									<p style="color: #BDBDBD; margin-top: 0px;">233 Messages</p>
+								</div>
+
+								<div class="messages">
+									<p><mark style="background-color: black; color: white; font-size: 11px; padding: 2.5px;">New</mark> OMG I can't wait to see that movie! What theater do you want to go? Anything down near the Unione Sq is really best for me.	</p>
+									
+								</div>
+
+								<div class="incontacts">
+									<b><u>Sarah Kelly</u></b>
+									<p style="color: #BDBDBD; margin-top: 0px;">161 Messages</p>
+								</div>
+
+								<div class="messages">
+									<p>Thanks for your condolences. The family is taking it pretty hard. But, she was 92 -she lived a really great life. This weekend, we're gonna be going through all her old photos.xoxo</p>
+									
+								</div>
+
+								<div class="incontacts">
+									<b><u>Luke Jones</u></b>
+									<p style="color: #BDBDBD; margin-top: 0px;">135 Messages</p>
+								</div>
+
+								<div class="messages">
+									<p>Yeah, I got the package.Next time, you can just leave it at thte dry cleaners in the front of my building-they are pretty cool about that. </p>
+									
+								</div>
+							</div>
+														
+						</div>
+
+						<h3> All Conversations </h3>
+
+						<div class="conversation">
+
+							<div class="contacts">
+								<div class="incontacts">
+									<b><u>(212)505-0938</u></b>
+									<p style="color: #BDBDBD; margin-top: 0px;">17 Messages</p>
+								</div>
+
+								<div class="messages">
+									<p>Ha ha ha ha - that is hialrious!</p>
+									
+								</div>
+
+								<div class="incontacts">
+									<b><u>(646)555-1234</u></b>
+									<p style="color: #BDBDBD; margin-top: 0px;">3 Messages</p>
+								</div>
+
+								<div class="messages">
+									<p><mark style="background-color: black; color: white; font-size: 11px; padding: 2.5px;">New</mark> It was great meeting you last night. How funny is that we've both known Jeff gor 5 years and have never met?!? Hopefully we can get together some time soon.</p>
+									
+								</div>
+
+								<div class="incontacts">
+									<b><u>(918)555-2020</u></b>
+									<p style="color: #BDBDBD; margin-top: 0px;">7 Messages</p>
+								</div>
+
+								<div class="messages">
+									<p><mark style="background-color: black; color: white; font-size: 11px; padding: 2.5px;">New</mark> hey, what was the of the movie you were talking about last night? Something about dude whoo cloned and lives on the moon? or mars? I want to look it up on netflix. </p>
+								</div>
+
+								<div class="incontacts">
+									<b><u>Mom</u></b>
+									<p style="color: #BDBDBD; margin-top: 0px;">38 Messages</p>
+								</div>
+
+								<div class="messages">
+									<p>am ever going to see you again? Are you still alive? you should come up to the house this weekend.
+									</p>
+								</div>
+
+								<div class="incontacts">
+									<b><u>Katherine Ho</u></b>
+									<p style="color: #BDBDBD; margin-top: 0px;">12 Messages</p>
+								</div>
+
+								<div class="messages">
+									<p>At 7:30. But, if we miss out that one , there's always the 9:45 show.</p>
+								</div>
+
+								<div class="incontacts">
+									<b><u>(212)555-2828</u></b>
+									<p style="color: #BDBDBD; margin-top: 0px;">11 Messages</p>
+								</div>
+
+								<div class="messages">
+									<p><mark style="background-color: black; color: white; font-size: 11px; padding: 2.5px;">New</mark> ha ha, that is straight-up brilliant! I swear you're no human-it's like your brain refuse to work like everyone else's. When your people come to take over the planet, can I be you queen?</p>
+									
+								</div>
+
+								<div class="incontacts">
+									<b><u>(919)555-4506</u></b>
+									<p style="color: #BDBDBD; margin-top: 0px;">10 Messages</p>
+								</div>
+
+								<div class="messages" >
+									<p>Not at all -- Bill an ted sequal was horrible; but, what I am saying is that they make some really amazing references to ancieant literature and moern philosophy. The whole chess game with the devil -amazing!</p>
+								</div>
+
+							</div>
+
+							<br><br>
+														
+						</div>
+
+			</div>
+
+			<div id="Photo" class="tabcontent">
+			  
+			  <h2 style="font-family: Arial;">Photos From All Conversatons</h2>
+
+						<div class="flex-container">
+							<figure>
+								<img src="images.png">
+								<figcaption>(508)555-1234</figcaption>
+								<figcaption class="date">sent on 03/01/2011</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images.png">
+								<figcaption>(508)555-1234</figcaption>
+								<figcaption class="date">sent on 03/01/2011</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images.png">
+								<figcaption>(508)555-1234</figcaption>
+								<figcaption class="date">sent on 03/01/2011</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images.png">
+								<figcaption>(508)555-1234</figcaption>
+								<figcaption class="date">sent on 03/01/2011</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images.png">
+								<figcaption>(508)555-1234</figcaption>
+								<figcaption class="date">sent on 03/01/2011</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images.png">
+								<figcaption>(508)555-1234</figcaption>
+								<figcaption class="date">sent on 03/01/2011</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images.png">
+								<figcaption>(508)555-1234</figcaption>
+								<figcaption class="date">sent on 03/01/2011</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images.png">
+								<figcaption>(508)555-1234</figcaption>
+								<figcaption class="date">sent on 03/01/2011</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images.png">
+								<figcaption>(508)555-1234</figcaption>
+								<figcaption class="date">sent on 03/01/2011</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images.png">
+								<figcaption>(508)555-1234</figcaption>
+								<figcaption class="date">sent on 03/01/2011</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images.png">
+								<figcaption>(508)555-1234</figcaption>
+								<figcaption class="date">sent on 03/01/2011</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images.png">
+								<figcaption>(508)555-1234</figcaption>
+								<figcaption class="date">sent on 03/01/2011</figcaption>
+							</figure>
+							
+						</div>
+
+						<br><br>
+
+						<div class="Load">
+							<u>Load more photos</u><br>
+							There are 93 more photos across 7 conversations.
+						</div>
+						<br><br>
+
+			</div>
+			<br>
+			<footer>
+			<p style="float: left; font-size: 12px;">Textify &copy 2011</p>
+			<p style="float: right; font-size: 12px;">All Messaging data on this site is 100% secure. <u>read out security policy</u></p>
+		</footer>
+	</main>
+
+</body>
+</html>

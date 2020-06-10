@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="form.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>Assignment</title>
+</head>
+<body>
+	<main>
+		<form name='registration' onsubmit="return ValidateForm();">
+			<h1>Form</h1>
+			<label for="Name" >Name : </label>
+			<input type="text" name="Name"><br>
+
+			<label for="Email" >Email : </label>
+			<input type="text" name="Email"><br>
+
+			<label for="Mobile" >Mobile : </label>
+			<input type="text" name="Mobile"><br>
+
+			<label>Country : </label>
+			<select name="country">
+				<option selected="" value="Default">Please select a country</option>
+				<option value="Aus">Australia</option>
+				<option value="Can">Canada</option>
+				<option value="Ind">India</option>
+				<option value="Rus">Russia</option>
+				<option value="USA">USA</option>
+			</select><br>
+
+			<label>Gender : </label>
+			  <input type="radio"  name="gender" value="male" id="male" onclick="openform(event , 'Male')">
+			  <label for="male">Male</label>
+			  <input type="radio"  name="gender" value="female" id="female" onclick="openform(event,'Female')">
+			  <label for="female">Female</label>
+			  <input type="radio"  name="gender" value="other" id="other" onclick="openform(event , 'Other')">
+			  <label for="other">Other</label>
+			  <br>
+
+			  <div id="Male" class="gender">
+			  	<label>Relationship</label><br>
+			  	<label>Father's Name : </label>
+			  	<input type="text" name="MFather"><br>
+			  	<label>Wife's Name: </label>
+			  	<input type="text" name="Wife">
+			  </div>
+
+			  <div id="Female" class="gender">
+			  	<label>Relationship</label><br>
+			  	<label>Father's Name: </label>
+			  	<input type="text" name="FFather"><br>
+			  	<label>Husband's Name: </label>
+			  	<input type="text" name="Husband">
+			  </div>
+
+			  <div id="Other" class="gender">
+			  	<label>Relationship</label><br>
+			  	<label>Father's Name: </label>
+			  	<input type="text" name="OFather"><br>
+			  	<label>Partner's Name: </label>
+			  	<input type="text" name="Partner">
+			  </div>
+
+			  <input type="submit" name="submit" value="Submit" />
+
+		</form>
+	</main>
+</body>
+</html>
